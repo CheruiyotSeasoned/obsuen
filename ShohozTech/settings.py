@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['*']
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'briancheruiyot00@gmail.com'
-EMAIL_HOST_PASSWORD = '5cg37028998pf'
+EMAIL_HOST_PASSWORD = '1234qwer'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
