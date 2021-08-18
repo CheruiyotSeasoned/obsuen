@@ -12,7 +12,7 @@ from django.contrib.auth import views as auth_views
 urlpatterns = [
     path('signup/', sign_up, name='signup'),
     path('signin/', signin, name='signin'),
-    path('logout/', auth_views.logout, {'template_name': 'posts/post_lists.html'}, name='logout'),
+    path('logout/', auth_views.LogoutView, {'template_name': 'posts/post_lists.html'}, name='logout'),
     # path('profile/', profile_check, name='profile'),
     path('profile-create/', profile_create, name='profile-create'),
     path('profile-detail/<int:id>/', profile_detail, name='profile-detail'),
